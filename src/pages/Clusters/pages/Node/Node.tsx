@@ -78,7 +78,7 @@ function getScene(node: string) {
                         new SceneFlexLayout({
                             direction: 'row',
                             children: [
-                                new Heading({ title: 'Network'})
+                                new Heading({ title: 'zzz Network'})
                             ]
                         }),
                         new SceneFlexLayout({
@@ -98,7 +98,7 @@ function getScene(node: string) {
                         new SceneFlexLayout({
                             direction: 'row',
                             children: [
-                                new Heading({ title: 'Pods'})
+                                new Heading({ title: 'zzz Pods'})
                             ]
                         }),
                         new SceneFlexLayout({
