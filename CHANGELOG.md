@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.1](https://github.com/mbocek-vw/grafana-k8s-app/compare/v0.1.0...v0.1.1) (2025-02-28)
+
+
+### Bug Fixes
+
+* Revert "remove reliance on release-please" ([31ea28e](https://github.com/mbocek-vw/grafana-k8s-app/commit/31ea28edb5dfc00c8d19c9f1b3de0c26eec2586d))
+* This reverts commit f856a170850500873f436f87b4b8b6372772c3a1. ([31ea28e](https://github.com/mbocek-vw/grafana-k8s-app/commit/31ea28edb5dfc00c8d19c9f1b3de0c26eec2586d))
+
 ## [0.1.0](https://github.com/mbocek-vw/grafana-k8s-app/compare/v0.11.2...v0.1.0) (2025-02-28)
 
 
