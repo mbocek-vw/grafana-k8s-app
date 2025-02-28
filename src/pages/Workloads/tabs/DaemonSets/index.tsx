@@ -23,12 +23,11 @@ const serieMatcherPredicate = (row: TableRow) => (value: any) => value.daemonset
 
 function determineAlertsColor(row: TableRow): TextColor {
     let color: TextColor = 'primary';
-    let color2 = color;
     if (row.alerts && row.alerts.length > 0) {
-        color2 = 'error'
+        color = 'error'
     }
 
-    return color2
+    return color
 }
 
 function asyncDataRowMapper(row: TableRow, asyncRowData: Map<string, number[]>) {
