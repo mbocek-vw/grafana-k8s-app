@@ -35,7 +35,7 @@ function asyncDataRowMapper(row: TableRow, asyncRowData: Map<string, number[]>) 
 }
 
 function determineAlertsColor(row: TableRow): TextColor {
-    let color: TextColor = 'primary';
+    let color: TextColor = 'secondary';
     if (row.alerts && row.alerts.length > 0) {
         color = 'error'
     }
